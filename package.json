@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/RenchChua/beestbottesting/issues"
   },
-  "homepage": "https://github.com/RenchChua/beestbottesting#readme"
+  "homepage": "https://github.com/RenchChua/beestbottesting#readme",
+  "dependencies": {
+    "botkit": "^0.4.0",
+    "botkit-middleware-witai": "0.0.2",
+    "node-wit": "^4.1.0",
+    "witbot": "^2.1.0"
+  }
 }
